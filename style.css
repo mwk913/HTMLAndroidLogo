@@ -24,18 +24,17 @@
     top: 100px;
     border-radius: 105px 105px 0px 0px;
     background-color: rgb(33, 202, 33);
+    transition-duration: 0.4s;
 }
 
 /* HEAD HOVER */
 
 .droidhead:hover {
     transform: rotate(-7deg);
-    transition-duration: .6s;
+    transition-duration: 0.6s;
     position: relative;
     left: -6px;
     top: 90px;
-  
-    
 }
 
 /*END HEAD HOVER */
@@ -109,6 +108,7 @@
     top: 1px;
     border-radius: 35px 35px 35px 35px;
     background-color: rgb(33, 202, 33);
+    transition-duration: 0.4s;
 }
 
 /*LEFT ARM HOVER */
@@ -140,6 +140,7 @@
     transform: rotate(-35deg);
     position: absolute;
     right: -100px;
+    transition-duration: 0.4s;
 }
 
 /*END RIGHT ARM HOVER*/
